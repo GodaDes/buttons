@@ -80,42 +80,42 @@
     }
 
     .btn.btn-primary.disabled{
-        button[disabled]
+        button [disabled];
         background-color: #B7CBFD;
         cursor: default;
         pointer-events: none;
         user-select: none;
     }
     .btn.btn-dark.disabled{
-        button[disabled]
+        button [disabled];
         background-color:#A4A4AC;
         cursor: default;
         pointer-events: none;
         user-select: none;
     }
     .btn.btn-info.disabled{
-        button[disabled]
+        button [disabled];
         background-color:#C2B8FD;
         cursor: default;
         pointer-events: none;
         user-select: none;
     }
     .btn.btn-success.disabled{
-        button[disabled]
+        button [disabled];
         background-color:#8FDAC6;
         cursor: default;
         pointer-events: none;
         user-select: none;
     }
     .btn.btn-warning.disabled{
-        button[disabled]
+        button [disabled];
         background-color:#FFDE7F;
         cursor: default;
         pointer-events: none;
         user-select: none;
     }
     .btn.btn-danger.disabled{
-        button[disabled]
+        button [disabled];
         background-color:#F08E8B;
         cursor: default;
         pointer-events: none;
