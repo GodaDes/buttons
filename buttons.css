@@ -1,0 +1,123 @@
+.btn {
+    background-color: #7197FA;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-family: Roboto;
+    font-weight: 500px;
+    line-height: 20 px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    }
+    .btnL{
+        height: 48px;
+        padding: 20px;
+        font-size: 16px;
+        
+    }
+    .btnM {
+        height:36px;
+        padding: 12px;
+        font-size: 14px;
+    }
+    .btnS {
+        height:28px;
+        padding: 8px;
+        font-size: 12px;
+    }
+    .btnXS {
+        height:20px;
+        padding: 6px;
+        font-size: 10px;
+    }
+    .btn.btn-primary {
+        background-color: #7197FA;
+    }
+    .btn.btn-dark {
+        background-color:#4A4959
+    }
+    .btn.btn-info {
+        background-color: #8371F9
+    }
+    .btn.btn-success {
+        background-color:#1DB58C
+    }
+    .btn.btn-warning {
+        background-color: #FFBC01;
+    }
+    .btn.btn-danger {
+        background-color: #E54642;
+    }
+    .btn.hover:hover {
+        background-color: white;
+        color: black;
+        border-color: currentColor;
+        transition: 0.5s;
+    }
+    .btn.btn-primary.active{
+        background-color: #5D7CCE
+    }
+    .btn.btn-dark.active{
+        background-color:#363642
+    }
+    .btn.btn-info.active{
+        background-color:#7767E4
+    }
+    .btn.btn-success.active{
+        background-color:#179472
+    }
+    .btn.btn-warning.active{
+        background-color:#D19A01
+    }
+    .btn.btn-danger.active{
+        background-color:#B71814
+    }
+
+    .btn.btn-primary.disabled{
+        button[disabled]
+        background-color: #B7CBFD;
+        cursor: default;
+        pointer-events: none;
+        user-select: none;
+    }
+    .btn.btn-dark.disabled{
+        button[disabled]
+        background-color:#A4A4AC;
+        cursor: default;
+        pointer-events: none;
+        user-select: none;
+    }
+    .btn.btn-info.disabled{
+        button[disabled]
+        background-color:#C2B8FD;
+        cursor: default;
+        pointer-events: none;
+        user-select: none;
+    }
+    .btn.btn-success.disabled{
+        button[disabled]
+        background-color:#8FDAC6;
+        cursor: default;
+        pointer-events: none;
+        user-select: none;
+    }
+    .btn.btn-warning.disabled{
+        button[disabled]
+        background-color:#FFDE7F;
+        cursor: default;
+        pointer-events: none;
+        user-select: none;
+    }
+    .btn.btn-danger.disabled{
+        button[disabled]
+        background-color:#F08E8B;
+        cursor: default;
+        pointer-events: none;
+        user-select: none;
+    }
