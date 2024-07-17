@@ -13,5 +13,8 @@
   "devDependencies": {
     "dead": "^0.0.2",
     "server": "^1.0.39"
+  },
+  "dependencies": {
+    "bootstrap-icons": "^1.11.3"
   }
 }
