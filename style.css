@@ -1,0 +1,71 @@
+.grupe{
+display: flex;
+}
+.stulpelis{
+    display: flex;
+    flex-direction: column;
+    width:25%;
+    margin:10px;
+}
+.btn {
+    background-color: #7197FA;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-family: Roboto;
+    font-weight: 500px;
+    line-height: 20 px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+    }
+    .btnL{
+        height: 48px;
+        padding: 20px;
+        font-size: 16px;
+        
+    }
+    .btnM {
+        height:36px;
+        padding: 12px;
+        font-size: 14px;
+    }
+    .btnS {
+        height:28px;
+        padding: 8px;
+        font-size: 12px;
+    }
+    .btnXS {
+        height:20px;
+        padding: 6px;
+        font-size: 10px;
+    }
+    .btn.btn-primary {
+        background-color: #7197FA;
+    }
+    .btn.btn-dark {
+        background-color:#4A4959
+    }
+    .btn.btn-info {
+        background-color: #8371F9
+    }
+    .btn.btn-success {
+        background-color:#1DB58C
+    }
+    .btn.btn-warning {
+        background-color: #FFBC01;
+    }
+    .btn.btn-danger {
+        background-color: #E54642;
+    }
+    .btn.hover:hover {
+        background-color: white;
+        color: black;
+        border-color: currentColor;
+        transition: 1s;
+    }
