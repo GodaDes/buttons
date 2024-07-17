@@ -12,5 +12,7 @@ flex-wrap: wrap;
     flex-basis: 100%;
 }
 .stulpelis2 {
+    display: inline-block;
+    margin:10px
         
 }
